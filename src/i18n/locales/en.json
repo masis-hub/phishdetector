@@ -1,0 +1,1044 @@
+{
+  "common": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "requestDemo": "Request a demo",
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "loading": "Loading…",
+    "language": "Language",
+    "spanish": "Spanish",
+    "english": "English",
+    "success": "Success",
+    "error": "Error",
+    "deleted": "Deleted",
+    "saving": "Saving…",
+    "uploading": "Uploading…",
+    "noData": "No data available."
+  },
+  "errors": {
+    "INVALID_EMAIL": "Invalid email address",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_TOO_LONG": "Email is too long",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_TOO_SHORT": "Password must be at least 8 characters",
+    "PASSWORD_TOO_LONG": "Password is too long",
+    "INVALID_INPUT": "Invalid request",
+    "METHOD_NOT_ALLOWED": "Method not allowed",
+    "INVALID_CREDENTIALS": "Invalid credentials or unauthorized account.",
+    "RATE_LIMITED": "Too many attempts. Please wait a few minutes before trying again.",
+    "UNEXPECTED": "An unexpected error occurred. Please try again.",
+    "CAMPAIGN_NOT_FOUND": "Campaign not found.",
+    "TEMPLATE_NOT_ASSIGNED": "Campaign has no template assigned.",
+    "TEMPLATE_NOT_FOUND": "Template not found.",
+    "INVALID_SENDER_DOMAIN": "Sender domain is not allowed.",
+    "DOMAIN_NOT_VERIFIED": "Sender domain is missing verified SPF/DKIM/DMARC records. Check Admin → DNS Verification before launching.",
+    "NO_TARGETS": "No targets found.",
+    "PROVIDER_REJECTED": "The email provider rejected the message.",
+    "DB_UPDATE_FAILED": "Could not record the send in the database.",
+    "FETCH_TARGETS_FAILED": "Failed to fetch targets.",
+    "INSUFFICIENT_PERMISSIONS": "Insufficient permissions.",
+    "UNAUTHORIZED": "Unauthorized.",
+    "CAMPAIGN_PROCESS_FAILED": "Could not process the campaign."
+  },
+  "auth": {
+    "badge": "Secure access",
+    "loginTitlePart1": "Welcome",
+    "loginTitlePart2": "back",
+    "forgotTitlePart1": "Reset your",
+    "forgotTitlePart2": "password",
+    "loginSubtitle": "Enter your corporate account details to access the dashboard.",
+    "forgotSubtitle": "We'll send you a secure link to create a new password.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgotLink": "Forgot your password?",
+    "backToLogin": "Back to sign in",
+    "submitLogin": "Sign in",
+    "submitForgot": "Send link",
+    "loadingLogin": "Processing…",
+    "loadingForgot": "Sending…",
+    "restrictedNote": "Restricted access · Authorized corporate accounts only",
+    "toast": {
+      "invalidTitle": "Invalid data",
+      "invalidDesc": "Please review the information you entered.",
+      "resetSentTitle": "Email sent",
+      "resetSentDesc": "If the email is registered, you'll receive a link to reset your password.",
+      "successTitle": "Success",
+      "successDesc": "Signed in successfully",
+      "loginFailTitle": "We couldn't sign you in",
+      "errorTitle": "Error"
+    },
+    "side": {
+      "eyebrow": "Enterprise platform",
+      "titlePart1": "Detecting phishing is the minimum.",
+      "titlePart2": "Reducing human risk",
+      "titlePart3": "is the real work.",
+      "body": "Controlled simulations, per-team behavior analysis, and AI-generated improvement plans — all in one dashboard.",
+      "bullet1": "Multi-channel campaigns without touching real credentials",
+      "bullet2": "Risk Score per user, team and organization",
+      "bullet3": "Executive-ready reports for your board",
+      "stat1Label": "Fewer clicks after 90 days",
+      "stat2Label": "Employees protected",
+      "stat3Label": "Continuous monitoring",
+      "by": "by Techsecure AI"
+    }
+  },
+  "campaigns": {
+    "title": "Campaigns",
+    "subtitle": "Create and manage phishing simulation campaigns",
+    "new": "New campaign",
+    "searchPlaceholder": "Search campaigns...",
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "draft": "Draft",
+      "scheduled": "Scheduled",
+      "completed": "Completed"
+    },
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "completed": "Completed",
+      "scheduled": "Scheduled"
+    },
+    "empty": {
+      "noneTitle": "No campaigns yet",
+      "noneDesc": "Create your first campaign to get started",
+      "notFoundTitle": "No campaigns found",
+      "notFoundDesc": "Try a different filter or search term"
+    },
+    "card": {
+      "targets": "{{count}} targets",
+      "click": "Click",
+      "report": "Report"
+    },
+    "pagination": {
+      "showing": "Showing {{from}}–{{to}} of {{total}}"
+    },
+    "detail": {
+      "notFound": "Campaign not found",
+      "back": "Back",
+      "noDescription": "No description",
+      "refreshResults": "Refresh results",
+      "resend": "Resend emails",
+      "resending": "Resending...",
+      "stats": {
+        "targets": "Targets",
+        "sent": "Sent",
+        "opened": "Opened",
+        "clicks": "Clicks",
+        "reported": "Reported"
+      },
+      "templateBlock": {
+        "title": "Email template",
+        "preview": "Preview",
+        "template": "Template",
+        "subject": "Subject",
+        "senderName": "Sender",
+        "from": "From"
+      },
+      "targetsSection": "Targets",
+      "addTargets": "Add targets",
+      "toast": {
+        "resentTitle": "Emails resent",
+        "resentDesc": "{{sent}} of {{total}} emails sent.",
+        "resendErrorTitle": "Error",
+        "resendErrorDesc": "Could not resend the emails."
+      }
+    },
+    "launch": {
+      "button": "Launch campaign",
+      "sending": "Sending...",
+      "missingTemplateTitle": "Missing template",
+      "missingTemplateDesc": "Assign an email template before launching.",
+      "noTargetsTitle": "No targets",
+      "noTargetsDesc": "Add at least one target before launching.",
+      "launchedTitle": "Campaign launched! 🚀",
+      "launchedDesc": "{{sent}}/{{total}} emails accepted by the provider.",
+      "launchErrorTitle": "Launch error"
+    },
+    "create": {
+      "title": "Create campaign",
+      "description": "Create a new phishing simulation campaign",
+      "name": "Campaign name",
+      "descLabel": "Description",
+      "template": "Email template",
+      "templatePlaceholder": "Choose a template",
+      "loadingTemplates": "Loading templates...",
+      "organization": "Organization",
+      "organizationPlaceholder": "Choose organization",
+      "organizationHint": "Link to a client company for reports",
+      "loadingOrgs": "Loading organizations...",
+      "scheduledAt": "Schedule for",
+      "cancel": "Cancel",
+      "submit": "Create campaign",
+      "submitting": "Creating...",
+      "successTitle": "Success",
+      "successDesc": "Campaign created. Now add targets to launch it.",
+      "errOrgRequired": "Please select an organization.",
+      "errScheduleRequired": "Please set a scheduled date."
+    },
+    "targets": {
+      "searchPlaceholder": "Search by email or name...",
+      "exportCsv": "Export CSV",
+      "showing": "Showing {{shown}} of {{total}} targets",
+      "filteredFrom": " (filtered from {{total}} total)",
+      "empty": "No targets added yet. Add targets to launch this campaign.",
+      "col": {
+        "name": "Name",
+        "email": "Email",
+        "dept": "Dept.",
+        "department": "Department",
+        "status": "Status",
+        "opened": "Opened",
+        "click": "Click",
+        "reported": "Reported",
+        "actions": "Actions"
+      },
+      "badge": {
+        "sent": "Sent",
+        "pending": "Pending"
+      },
+      "send": "Send",
+      "page": "Page {{current}} of {{total}}",
+      "csvFile": "targets",
+      "csvHeaders": {
+        "name": "Name",
+        "email": "Email",
+        "department": "Department",
+        "status": "Status",
+        "opened": "Opened",
+        "click": "Click",
+        "reported": "Reported"
+      },
+      "toast": {
+        "sentTitle": "Email sent",
+        "sentOk": "The provider accepted the email.",
+        "sentNone": "Email send was not confirmed.",
+        "errorTitle": "Error",
+        "errorDesc": "Error sending email."
+      }
+    },
+    "add": {
+      "title": "Add targets",
+      "description": "Add recipients for this phishing simulation campaign",
+      "tabs": {
+        "manual": "Manual",
+        "csv": "CSV",
+        "directory": "Directory"
+      },
+      "manual": {
+        "email": "Email *",
+        "emailPlaceholder": "user@company.com",
+        "fullName": "Full name",
+        "fullNamePlaceholder": "John Doe",
+        "department": "Department",
+        "departmentPlaceholder": "Engineering",
+        "add": "Add target",
+        "adding": "Adding...",
+        "emailRequired": "Email is required",
+        "addedTitle": "Success",
+        "addedDesc": "Target added successfully"
+      },
+      "csv": {
+        "downloadTemplate": "Download template",
+        "upload": "Upload CSV file",
+        "dataLabel": "CSV data (email, name, department)",
+        "preview": "Preview",
+        "foundTargets": "{{count}} targets found:",
+        "noName": "No name",
+        "noDept": "No dept.",
+        "import": "Import {{count}} targets",
+        "importing": "Importing...",
+        "noValid": "No valid targets to import",
+        "importedDesc": "{{count}} targets imported"
+      },
+      "directory": {
+        "search": "Search directory...",
+        "empty": "No contacts in the directory. Add users from the Users page.",
+        "selectAll": "Select all ({{count}})",
+        "selected": "{{count}} selected",
+        "import": "Import {{count}} targets",
+        "importing": "Importing...",
+        "selectAtLeastOne": "Select at least one contact",
+        "importedDesc": "{{count}} targets imported from directory"
+      }
+    }
+  },
+  "nav": {
+    "menu": "Main menu",
+    "panel": "Dashboard",
+    "campaigns": "Campaigns",
+    "analytics": "Analytics",
+    "templates": "Templates",
+    "reports": "Reports",
+    "plans": "Plans",
+    "reviews": "Reviews",
+    "security": "Security",
+    "users": "Users",
+    "settings": "Settings",
+    "user": "User"
+  },
+  "landing": {
+    "nav": {
+      "product": "Product",
+      "howItWorks": "How it works",
+      "capabilities": "Capabilities",
+      "simulation": "Simulation",
+      "compare": "Why us",
+      "testimonials": "Testimonials"
+    },
+    "hero": {
+      "badge": "Proactive human-security model",
+      "titlePart1": "Detecting phishing is the bare minimum.",
+      "titlePart2": "Reducing it every month",
+      "titlePart3": "is what matters.",
+      "subtitle": "PhishDetector measures your company's real exposure and runs a personalized improvement plan, with measurable results you can bring to the board.",
+      "ctaPrimary": "Request your exposure diagnostic",
+      "ctaSecondary": "Discover the proactive model",
+      "panel": {
+        "title": "Exposure index",
+        "subtitle": "Last 6 months",
+        "current": "Current",
+        "delta": "vs. baseline"
+      }
+    },
+    "credibility": {
+      "stat1Value": "91",
+      "stat1Suffix": "%",
+      "stat1Label": "of breaches start with a phishing email.",
+      "stat2Value": "207",
+      "stat2Suffix": " days",
+      "stat2Label": "average detection time without specialized tooling.",
+      "stat3Value": "72",
+      "stat3Suffix": "%",
+      "stat3Label": "exposure reduction achieved with the proactive plan."
+    },
+    "how": {
+      "eyebrow": "Proactive model",
+      "title": "We assess, we plan, we improve.",
+      "subtitle": "A continuous, measurable improvement cycle built for boards and risk committees.",
+      "step1Title": "Assess",
+      "step1Desc": "We measure your real phishing exposure and the human resilience of every area in your company.",
+      "step2Title": "Plan",
+      "step2Desc": "We design a personalized improvement plan, prioritized by impact and risk level.",
+      "step3Title": "Improve",
+      "step3Desc": "We execute, measure, and report results month over month to sustain risk reduction."
+    },
+    "simulation": {
+      "eyebrow": "Controlled simulation",
+      "title": "We measure your team's human resilience — without drama.",
+      "body": "PhishDetector runs controlled social-engineering simulations and behavioral analysis, under an ethical framework with no real credential capture. Every exercise feeds a personalized improvement plan per company, with clear metrics for exposure, learning, and month-over-month reduction.",
+      "bullets": {
+        "b1": "Scenarios calibrated by industry and role",
+        "b2": "Behavioral analysis per person and per area",
+        "b3": "Improvement plan aligned to your risk matrix"
+      },
+      "panel": {
+        "title": "Behavior by area",
+        "active": "Active",
+        "dept": {
+          "finance": "Finance",
+          "operations": "Operations",
+          "hr": "HR",
+          "it": "IT",
+          "sales": "Sales"
+        }
+      }
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Everything your security program needs",
+      "items": {
+        "simulation": {
+          "title": "Phishing simulation",
+          "desc": "Scheduled, multi-template campaigns with tracking pixel and event capture."
+        },
+        "riskScore": {
+          "title": "Risk score",
+          "desc": "Dynamic per-user and per-org score based on real behavior."
+        },
+        "reports": {
+          "title": "Executive reports",
+          "desc": "Per-company dashboards and reports ready for the board."
+        },
+        "templates": {
+          "title": "Template library",
+          "desc": "English and Spanish templates with visual editor and HTML import."
+        },
+        "mitigation": {
+          "title": "Mitigation plans",
+          "desc": "Auto-generated plans with priority and Gantt-style timeline."
+        },
+        "multitenant": {
+          "title": "Multi-tenant",
+          "desc": "Service-provider model to manage multiple client organizations."
+        }
+      }
+    },
+    "compare": {
+      "eyebrow": "Why PhishDetector",
+      "title": "Built for teams that value control and data sovereignty",
+      "us": "PhishDetector",
+      "others": "Other platforms",
+      "rows": {
+        "ai": {
+          "label": "AI built in for template creation",
+          "us": "Included",
+          "others": "Add-on"
+        },
+        "data": {
+          "label": "Data hosted in your cloud",
+          "us": "Yes",
+          "others": "Shared multi-tenant"
+        },
+        "languages": {
+          "label": "Spanish and English support",
+          "us": "Native",
+          "others": "Partial"
+        },
+        "ethics": {
+          "label": "No real credential capture",
+          "us": "By design",
+          "others": "Varies"
+        },
+        "price": {
+          "label": "Service-provider model",
+          "us": "Yes",
+          "others": "Enterprise only"
+        }
+      }
+    },
+    "metrics": {
+      "eyebrow": "Outcomes that matter",
+      "title": "Impact metrics from real programs",
+      "disclaimer": "Illustrative data from pilot programs.",
+      "items": {
+        "reduction": {
+          "value": "72%",
+          "label": "Click reduction in 90 days"
+        },
+        "campaigns": {
+          "value": "+150",
+          "label": "Campaigns executed"
+        },
+        "users": {
+          "value": "10k",
+          "label": "Users trained"
+        },
+        "templates": {
+          "value": "40+",
+          "label": "Ready-to-use templates"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "What teams say",
+      "title": "Trusted by security teams",
+      "empty": "Customer stories coming soon."
+    },
+    "cta": {
+      "title": "Bring your board a reduction plan, not just another report.",
+      "subtitle": "Book a 30-minute exposure diagnostic with our team and receive an initial roadmap, no commitment required.",
+      "button": "Request your exposure diagnostic"
+    },
+    "contact": {
+      "eyebrow": "Have questions?",
+      "title": "Want to learn more?",
+      "body": "Discover how Techsecure AI can help your company reduce social engineering risk.",
+      "button": "Contact us",
+      "services": "Explore more services at"
+    },
+    "footer": {
+      "tagline": "A Techsecure AI product",
+      "rights": "All rights reserved.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "contact": "Contact",
+      "services": "More services"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Dashboard",
+    "title": "Awareness Dashboard",
+    "subtitle": "Monitor phishing simulation campaigns and security metrics",
+    "newCampaign": "New campaign",
+    "stats": {
+      "activeCampaigns": "Active campaigns",
+      "inProgress": "In progress",
+      "noActive": "No active campaigns",
+      "avgClickRate": "Avg. click rate",
+      "excellent": "Excellent awareness",
+      "good": "Good awareness",
+      "needsImprovement": "Needs improvement",
+      "totalTargets": "Total targets",
+      "uniqueEmails": "Unique emails recorded",
+      "noDataYet": "No data yet",
+      "systemStatus": "System status",
+      "active": "Active",
+      "allOperational": "All systems operational"
+    },
+    "recent": {
+      "title": "Recent campaigns",
+      "subtitle": "Last 5 campaigns",
+      "viewAll": "View all",
+      "empty": "No campaigns yet",
+      "emptyHint": "Create your first simulation campaign",
+      "targets": "{{count}} targets",
+      "click": "Click",
+      "report": "Report"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "subtitle": "Security checklist",
+      "progress": "Progress",
+      "status": {
+        "complete": "Complete",
+        "pending": "Pending",
+        "required": "Required"
+      },
+      "items": {
+        "auth": {
+          "title": "Written authorization",
+          "desc": "CEO approval obtained"
+        },
+        "legal": {
+          "title": "Legal review",
+          "desc": "Compliance team approval"
+        },
+        "exclusion": {
+          "title": "Exclusion list",
+          "desc": "Define excluded personnel"
+        },
+        "data": {
+          "title": "Data protection review",
+          "desc": "GDPR compliance assessment required"
+        },
+        "comms": {
+          "title": "Communication plan",
+          "desc": "Post-campaign messaging strategy"
+        }
+      }
+    }
+  },
+  "analytics": {
+    "title": "Analytics & Reports",
+    "subtitle": "Real-time security awareness metrics",
+    "filterCampaign": "Filter by campaign",
+    "filterTemplate": "Filter by template",
+    "allCampaigns": "All campaigns",
+    "allTemplates": "All templates",
+    "overallClick": "Overall click rate",
+    "reportRate": "Report rate",
+    "highRiskUsers": "High-risk users",
+    "highRiskUsersHint": "Users who clicked at least once",
+    "completedCampaigns": "Completed campaigns",
+    "totalEmailsSent": "{{count}} emails sent in total",
+    "trendByCampaign": "Trend by campaign",
+    "noCampaignData": "No campaign data available.",
+    "resultDistribution": "Result distribution",
+    "noDistData": "No data available.",
+    "deptRisk": "Risk by department",
+    "noDeptData": "No department data available.",
+    "noHighRisk": "No user has clicked phishing links yet.",
+    "clickRate": "Click rate %",
+    "reportRatePct": "Report rate %",
+    "summary": "Overall summary",
+    "campaigns": "Campaigns",
+    "targets": "Targets",
+    "emailsSent": "Emails sent",
+    "clicks": "Clicks",
+    "reported": "Reported",
+    "noAction": "No action",
+    "unknownDept": "Unknown"
+  },
+  "templates": {
+    "title": "Email templates",
+    "subtitle": "Safe, ethical phishing simulation templates for security training",
+    "create": "Create template",
+    "emptyTitle": "No templates yet",
+    "emptyDesc": "Create your first phishing template to get started",
+    "noDescription": "No description",
+    "difficulty": "Difficulty",
+    "from": "From",
+    "subject": "Subject",
+    "edit": "Edit",
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "guidelinesTitle": "Template safety guidelines",
+    "guidelines": {
+      "g1": "Never request real credentials or sensitive data",
+      "g2": "Avoid topics that could cause psychological harm",
+      "g3": "All links must lead to educational pages",
+      "g4": "Templates must comply with organizational policies",
+      "g5": "Proper authorization required before use"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Configure platform settings and compliance requirements",
+    "compliance": {
+      "title": "Compliance & authorization",
+      "desc": "Manage legal approvals, exclusion lists, and campaign authorization",
+      "cta": "Configure"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "desc": "Configure email notifications, alerts, and reporting preferences",
+      "cta": "Manage notifications"
+    },
+    "data": {
+      "title": "Data & privacy",
+      "desc": "Data retention policies, GDPR compliance, and privacy settings",
+      "cta": "Privacy settings"
+    },
+    "security": {
+      "title": "Security",
+      "desc": "Authentication, access control, and emergency stop configuration",
+      "cta": "Security settings"
+    }
+  },
+  "usersPage": {
+    "title": "User management",
+    "subtitle": "Manage target users and track individual risk profiles",
+    "addUsers": "Add users",
+    "search": "Search by email, name, or department...",
+    "showing": "Showing {{shown}} of {{total}} users",
+    "user": "User",
+    "email": "Email",
+    "department": "Department",
+    "riskLevel": "Risk level",
+    "actions": "Actions",
+    "loading": "Loading...",
+    "empty": "No users. Add users manually or import a CSV.",
+    "page": "Page {{current}} of {{total}}",
+    "deleted": "User deleted",
+    "risk": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
+  },
+  "profile": {
+    "title": "My profile",
+    "subtitle": "Manage your personal information and security",
+    "avatar": "Profile photo",
+    "changePhoto": "Change photo",
+    "avatarHint": "JPG, PNG. Max 2MB.",
+    "selectFile": "Select file",
+    "uploading": "Uploading...",
+    "info": "Personal information",
+    "fullName": "Full name",
+    "fullNamePh": "Your full name",
+    "email": "Email",
+    "emailLocked": "Email cannot be changed",
+    "save": "Save changes",
+    "changePassword": "Change password",
+    "newPassword": "New password",
+    "newPasswordPh": "At least 6 characters",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPh": "Repeat the new password",
+    "updatePassword": "Update password",
+    "toast": {
+      "updateFail": "Could not update the profile",
+      "updateOk": "Profile updated",
+      "passShort": "Password must be at least 6 characters",
+      "passMismatch": "Passwords do not match",
+      "passOk": "Password updated",
+      "imageOnly": "Only image files are allowed",
+      "imageBig": "Image must be under 2MB",
+      "uploadFail": "Could not upload the image",
+      "avatarOk": "Profile photo updated"
+    }
+  },
+  "plans": {
+    "title": "Mitigation & training plans",
+    "subtitle": "Manage plans, owners, and project timeline",
+    "organization": "Organization",
+    "newPlan": "New plan",
+    "noOrgs": "No organizations",
+    "noOrgsDesc": "Create an organization from Reports to link plans.",
+    "categories": {
+      "mitigation": "Mitigation",
+      "training": "Training",
+      "policy": "Policies",
+      "simulation": "Simulations"
+    },
+    "ready": "{{count}} done",
+    "overall": "Overall project progress",
+    "completed": "{{count}} completed",
+    "inProgress": "{{count}} in progress",
+    "tabs": {
+      "gantt": "Timeline",
+      "list": "List"
+    },
+    "ganttTitle": "Gantt view — Project timeline",
+    "emptyList": "No plans yet. Click \"New plan\" to get started.",
+    "loadError": "Could not load the plans",
+    "priorities": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "statuses": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "card": {
+      "save": "Save",
+      "updateError": "Could not update",
+      "deleted": "Deleted",
+      "deletedDesc": "Plan deleted successfully"
+    },
+    "dialog": {
+      "createTitle": "Create Mitigation / Training Plan",
+      "titleLabel": "Title *",
+      "titlePlaceholder": "e.g.: Anti-phishing training Q2",
+      "description": "Description",
+      "descriptionPlaceholder": "Plan details...",
+      "category": "Category",
+      "priority": "Priority",
+      "responsible": "Owner",
+      "responsiblePlaceholder": "e.g.: IT Team / John Doe",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "create": "Create Plan",
+      "creating": "Creating...",
+      "titleRequired": "Title is required",
+      "createError": "Could not create the plan",
+      "createdTitle": "Success",
+      "createdDesc": "Plan created successfully"
+    }
+  },
+  "reviewsPage": {
+    "title": "Product reviews",
+    "subtitle": "Manage reviews and testimonials",
+    "new": "New review",
+    "emptyTitle": "No reviews",
+    "emptyDesc": "Create the first product review",
+    "published": "Published",
+    "draftBadge": "Draft",
+    "noContent": "No content",
+    "edit": "Edit",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "deleteTitle": "Delete review?",
+    "deleteDesc": "This action cannot be undone.",
+    "deleted": "Review deleted",
+    "deleteError": "Delete error",
+    "updated": "Review updated",
+    "created": "Review created",
+    "saveError": "Save error",
+    "dlg": {
+      "edit": "Edit review",
+      "new": "New review",
+      "titleLabel": "Title *",
+      "titlePh": "Review title",
+      "content": "Content",
+      "contentPh": "Write the review...",
+      "rating": "Rating",
+      "author": "Author",
+      "authorPh": "Author name",
+      "publishNow": "Publish immediately",
+      "saving": "Saving...",
+      "update": "Update",
+      "create": "Create"
+    }
+  },
+  "reports": {
+    "title": "Company reports",
+    "subtitle": "Campaign results and mitigation plan per organization",
+    "newOrg": "New organization",
+    "createOrg": "Create organization",
+    "orgName": "Company name",
+    "orgNamePh": "e.g. ABC Corp",
+    "contactEmail": "Contact email",
+    "contactEmailPh": "contact@company.com",
+    "create": "Create",
+    "selectOrgPh": "Select an organization",
+    "noOrgs": "No organizations",
+    "noOrgsDesc": "Create your first organization to link campaigns and generate reports.",
+    "campaigns": "Campaigns",
+    "evaluated": "Employees evaluated",
+    "clickRate": "Click rate",
+    "reportRate": "Report rate",
+    "detail": "Campaign detail",
+    "detailDesc": "Individual results per campaign",
+    "noLinked": "No campaigns linked to this organization. Assign an organization when creating campaigns.",
+    "notStarted": "Not started",
+    "sent": "Sent",
+    "clicks": "Clicks",
+    "reported": "Reported",
+    "clickRateCol": "Click rate",
+    "plan": "Suggested mitigation plan",
+    "planDesc": "Based on an average click rate of {{click}}% and report rate of {{report}}%",
+    "orgErr": "Could not create the organization",
+    "orgOk": "Organization created",
+    "seedDemo": "Include demo campaign (sample data)",
+    "oneClickDemo": "Create demo + simulation",
+    "runningDemo": "Generating demo…",
+    "demoReadyTitle": "Demo ready",
+    "demoReadyDesc": "{{org}} created with simulation: {{total}} targets, {{clicks}} clicks, {{reports}} reports."
+  },
+  "securityPage": {
+    "eyebrow": "Security",
+    "title": "Security findings",
+    "subtitle": "Consolidated scanners (Wiz, Aikido, Supabase, Lovable agent)",
+    "reload": "Reload",
+    "importJson": "Import JSON",
+    "kpi": {
+      "total": "Total",
+      "open": "Open",
+      "fixed": "Fixed",
+      "ignored": "Ignored"
+    },
+    "severityDist": "Severity distribution",
+    "trend": "Trend by scan date",
+    "searchPh": "Search finding...",
+    "connector": "Connector",
+    "allConnectors": "All connectors",
+    "severity": "Severity",
+    "allSev": "All",
+    "status": "Status",
+    "allStatus": "All",
+    "statusLabels": {
+      "open": "Open",
+      "fixed": "Fixed",
+      "ignored": "Ignored"
+    },
+    "col": {
+      "finding": "Finding",
+      "connector": "Connector",
+      "severity": "Severity",
+      "status": "Status",
+      "lastScan": "Last scan",
+      "actions": "Actions"
+    },
+    "loadingRow": "Loading...",
+    "emptyRow": "No findings. Import a JSON from your security dashboard.",
+    "importTitle": "Import findings from JSON",
+    "importDesc": "Paste the JSON exported from the security dashboard. Supports the { scanner_name: { findings: [...] } } format or an array of findings.",
+    "importing": "Importing...",
+    "import": "Import",
+    "noFindings": "No findings found in the JSON",
+    "imported": "{{count}} findings synced",
+    "importedTitle": "Imported",
+    "invalidJson": "Invalid JSON",
+    "noName": "Unnamed finding"
+  },
+  "admin": {
+    "title": "Access & roles",
+    "subtitle": "Invite users and assign roles inside each Techsecure AI client company.",
+    "invite": "Invite user",
+    "verifying": "Verifying permissions…",
+    "stats": {
+      "users": "Users with access",
+      "globalAdmins": "Global admins",
+      "orgs": "Organizations"
+    },
+    "showMembers": "Show members of:",
+    "globalLabel": "Techsecure AI · Global",
+    "col": {
+      "user": "User",
+      "email": "Email",
+      "role": "Role",
+      "since": "Joined",
+      "actions": "Actions"
+    },
+    "empty": "No access entries in this organization yet. Use \"Invite user\" to add one.",
+    "roles": {
+      "admin": "Administrator",
+      "manager": "Manager",
+      "viewer": "Viewer"
+    },
+    "revokeFail": "Could not revoke access",
+    "revokedTitle": "Access revoked",
+    "revokedDesc": "The role was removed.",
+    "inviteDlg": {
+      "title": "Invite user",
+      "desc": "Send an email invite and assign the role they'll have in the selected company.",
+      "email": "Email",
+      "emailPh": "person@company.com",
+      "fullName": "Full name (optional)",
+      "fullNamePh": "First and last name",
+      "role": "Role",
+      "viewerOpt": "Viewer — read-only",
+      "managerOpt": "Manager — manages this company's campaigns",
+      "adminOpt": "Global admin — Techsecure AI",
+      "company": "Company",
+      "companyPh": "Select a company",
+      "noOrgs": "No organizations registered yet.",
+      "adminNote": "This user will be able to manage every company and the full platform.",
+      "invalidEmail": "Invalid email",
+      "selectOrg": "Select an organization",
+      "inviteFail": "Could not send invite",
+      "verify": "Please review the data and try again.",
+      "invitedTitle": "Invitation sent",
+      "invitedDesc": "The user will receive an email to activate their account.",
+      "roleAssignedTitle": "Role assigned",
+      "roleAssignedDesc": "The role was added to the existing account.",
+      "sending": "Sending…",
+      "send": "Send invite"
+    }
+  },
+  "gantt": {
+    "noPlans": "No plans yet. Create your first mitigation or training plan.",
+    "unassigned": "Unassigned",
+    "status": "Status",
+    "completed": "completed",
+    "noDates": "No dates assigned",
+    "today": "Today"
+  },
+  "templatesDialog": {
+    "createTitle": "Create Phishing Template",
+    "editTitle": "Edit Template",
+    "createDesc": "Create a new email template for security training",
+    "editDesc": "Edit the template fields",
+    "name": "Template Name",
+    "category": "Category",
+    "categoryPlaceholder": "e.g.: IT Security, HR, Finance",
+    "difficulty": "Difficulty",
+    "diffEasy": "Easy",
+    "diffMedium": "Medium",
+    "diffHard": "Hard",
+    "senderEmail": "Sender Email",
+    "senderEmailPlaceholder": "e.g.: support@company.com",
+    "description": "Description",
+    "descriptionPlaceholder": "Brief description of this template's purpose",
+    "emailContent": "Email Content",
+    "tabEs": "Spanish (required)",
+    "tabEn": "English (optional)",
+    "subject": "Subject",
+    "senderName": "Sender Name",
+    "senderNamePlaceholder": "e.g.: IT Support",
+    "htmlContent": "HTML Content",
+    "htmlPlaceholderEs": "Enter the email HTML content...",
+    "htmlHintEs": "Use {{tracking_link}} as placeholder for the phishing link",
+    "subjectEn": "Subject",
+    "senderNameEn": "Sender Name",
+    "senderNameEnPlaceholder": "E.g.: IT Support",
+    "htmlContentEn": "HTML Content",
+    "htmlPlaceholderEn": "Enter the email HTML content...",
+    "htmlHintEn": "Use {{tracking_link}} as placeholder for the phishing link. If left empty, the Spanish version will be used.",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "creating": "Creating...",
+    "saveChanges": "Save Changes",
+    "create": "Create Template",
+    "createdToast": "Template created successfully",
+    "updatedToast": "Template updated successfully",
+    "successTitle": "Success"
+  },
+  "addContact": {
+    "title": "Add Users",
+    "desc": "Add users to the directory to include them in phishing campaigns",
+    "tabManual": "Manual",
+    "tabCsv": "Import CSV",
+    "email": "Email *",
+    "emailPlaceholder": "user@company.com",
+    "password": "Password *",
+    "passwordPlaceholder": "Minimum 6 characters",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "department": "Department",
+    "departmentPlaceholder": "Technology",
+    "role": "Role",
+    "roleViewer": "Viewer",
+    "roleManager": "Manager",
+    "roleAdmin": "Administrator",
+    "createUser": "Create User",
+    "creating": "Creating...",
+    "downloadTpl": "Download CSV Template",
+    "upload": "Upload CSV file",
+    "csvData": "CSV data (email, name, department)",
+    "preview": "Preview",
+    "foundUsers": "{{count}} users found:",
+    "noName": "No name",
+    "noDept": "No dept.",
+    "import": "Import {{count}} Users",
+    "importing": "Importing...",
+    "imported": "{{count}} contacts imported",
+    "errEmailPass": "Email and password are required",
+    "errPasswordShort": "Password must be at least 6 characters",
+    "userCreated": "User created successfully",
+    "errNoContacts": "No valid contacts to import",
+    "errDuplicate": "Some emails already exist in the system",
+    "successTitle": "Success"
+  },
+  "campaignCharts": {
+    "timelineTitle": "Activity Over Time",
+    "timelineSubtitle": "Cumulative clicks and reports during the campaign",
+    "clicksCum": "Cumulative clicks",
+    "reportsCum": "Cumulative reports",
+    "clicksLegend": "Clicks",
+    "reportsLegend": "Reports",
+    "funnelTitle": "Conversion Funnel",
+    "funnelSubtitle": "Interaction flow with the simulated phishing",
+    "fSent": "Sent",
+    "fOpened": "Opened",
+    "fClicks": "Clicks",
+    "fReported": "Reported",
+    "openRate": "Open Rate",
+    "clickOverOpen": "Click / Open",
+    "reportOverClick": "Report / Click",
+    "deptTitle": "Risk by Department",
+    "deptSubtitle": "Click rate (%) by department",
+    "clickRate": "Click Rate",
+    "noDept": "No department"
+  },
+  "riskPanel": {
+    "title": "Risk Assessment",
+    "subtitle": "Automated vulnerability analysis",
+    "risk": "Risk",
+    "levels": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "openRate": "Open Rate",
+    "clickRate": "Click Rate",
+    "reportRate": "Report Rate",
+    "deptRisk": "Risk by Department",
+    "insights": "Key Insights",
+    "recommendations": "Recommendations",
+    "noDept": "No department",
+    "insightRiskiest": "<0>{{name}}</0> is the most vulnerable department with a {{rate}}% click rate ({{clicked}}/{{total}} users).",
+    "insightSafest": "<0>{{name}}</0> showed greater resilience with only {{rate}}% clicks.",
+    "insightReport": "{{reported}} of {{clicked}} users who clicked also reported the email ({{pct}}% self-correction).",
+    "recs": {
+      "training": "Implement mandatory phishing awareness training across the organization.",
+      "deptIntensive": "Prioritize intensive training for the {{name}} department ({{rate}}% clicks).",
+      "reportCulture": "Strengthen reporting culture: less than 20% of employees reported the phishing.",
+      "credible": "The high open rate shows the pretext was credible. Run simulations with progressive difficulty.",
+      "good": "Overall good results. Keep periodic simulations to sustain awareness.",
+      "continue": "Continue the simulations program to maintain organizational vigilance."
+    }
+  },
+  "templatePreview": {
+    "subject": "Subject",
+    "sender": "Sender",
+    "email": "Email",
+    "preview": "Preview",
+    "code": "HTML Code",
+    "from": "From:",
+    "subjectLabel": "Subject:",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "savedTitle": "Success",
+    "savedDesc": "Template updated successfully",
+    "saveError": "Could not save the template"
+  }
+}

@@ -1,0 +1,10 @@
+UPDATE public.organizations SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.phishing_templates SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.campaigns SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.mitigation_plans SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.contacts SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.reviews SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+UPDATE public.security_findings SET created_by = NULL WHERE created_by = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+DELETE FROM public.user_roles WHERE user_id = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+DELETE FROM public.profiles WHERE id = 'a4f300fd-d94e-44a1-8221-98b1849050be';
+DELETE FROM auth.users WHERE id = 'a4f300fd-d94e-44a1-8221-98b1849050be';
