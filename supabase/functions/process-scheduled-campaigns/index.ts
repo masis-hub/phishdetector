@@ -7,7 +7,7 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type, x-cron-secret",
 };
 
-const DEFAULT_SENDER_DOMAIN = "notify.techsecureai.com";
+const DEFAULT_SENDER_DOMAIN = "notify.phishdetector.app";
 const DEFAULT_SENDER_LOCAL = "simulations";
 
 serve(async (req) => {

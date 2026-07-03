@@ -3,6 +3,7 @@
 // before a campaign is allowed to launch.
 
 const PLATFORM_DEFAULT_DOMAINS = new Set([
+  "notify.phishdetector.app",
   "notify.techsecureai.com",
 ]);
 
